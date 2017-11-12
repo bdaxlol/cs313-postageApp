@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Postal Rates Calculator</title>
+</head>
+<body>
+	<h1>Math Submission Form</h1>
+	<form action="/getRate" method="get">
+		<select name="mailType">
+			<option>Stamped</option>
+			<option>Metered</option>
+			<option>Large</option>
+			<option>Package</option>
+		</select>
+		<p>Note: Letters over 3.5 oz. are priced as Large Envelopes</p>
+
+		<input type="text" name="weight">
+
+		<br><br>
+		<input type="submit" value="Get Rate">
+
+	</form>
+</body>
+</html>
